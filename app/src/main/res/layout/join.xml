@@ -6,42 +6,39 @@
     android:layout_height="match_parent"
     tools:context=".JoinActivity">
 
-    <EditText
-        android:id="@+id/editText_name"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:ems="10"
-        android:hint="이름"
-        android:inputType="textPersonName"
+        android:layout_marginBottom="37dp"
+        android:text="회원가입"
+        app:layout_constraintBottom_toTopOf="@+id/editText_name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText_id"
+        app:layout_constraintTop_toBottomOf="@+id/editText_id"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="19dp"
         android:ems="10"
         android:hint="이메일"
         android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="@+id/editText_pw_check"
-        app:layout_constraintTop_toBottomOf="@+id/editText_pw_check"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/editText_pw_check"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="비밀번호 확인"
-        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="@+id/editText_pw"
         app:layout_constraintTop_toBottomOf="@+id/editText_pw"
         tools:ignore="MissingConstraints" />
@@ -53,7 +50,6 @@
         android:layout_marginTop="44dp"
         android:text="회원가입"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText_email"
         tools:ignore="MissingConstraints" />
@@ -71,28 +67,16 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText_pw"
+        android:id="@+id/editText_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginTop="186dp"
         android:ems="10"
-        android:hint="비밀번호"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/editText_id"
-        app:layout_constraintTop_toBottomOf="@+id/editText_id"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:text="회원가입"
-        app:layout_constraintBottom_toTopOf="@+id/editText_name"
+        android:hint="이름"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
