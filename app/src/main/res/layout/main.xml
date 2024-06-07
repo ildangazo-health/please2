@@ -5,37 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="147dp"
-        android:layout_height="146dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="127dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Health Mate"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="55dp"
-        tools:ignore="MissingConstraints" />
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="67dp" />
 
     <android.widget.Button
         android:id="@+id/button_map"
-        android:layout_width="87dp"
-        android:layout_height="53dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:text="지도"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="248dp"
-        tools:layout_editor_absoluteY="134dp" />
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="459dp" />
 
     <android.widget.Button
         android:id="@+id/button_check"
-        android:layout_width="301dp"
-        android:layout_height="49dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:text="생활 건강 체크리스트"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="53dp"
