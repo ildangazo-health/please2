@@ -12,11 +12,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        Button joinButton = findViewById(R.id.button_check);
-        joinButton.setOnClickListener(new View.OnClickListener() {
+        Button checkButton = findViewById(R.id.button_check);
+        checkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CheckActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button inputButton = findViewById(R.id.button_input);
+        inputButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InputCheckupActivity.class);
                 startActivity(intent);
             }
         });

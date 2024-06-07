@@ -13,16 +13,16 @@
         android:textSize="25dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:layout_editor_absoluteY="115dp" />
 
     <android.widget.Button
-        android:id="@+id/button_map"
+        android:id="@+id/button_input"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:text="지도"
+        android:text="검진 결과 입력"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="459dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="291dp" />
 
     <android.widget.Button
         android:id="@+id/button_check"
@@ -30,7 +30,16 @@
         android:layout_height="50dp"
         android:text="생활 건강 체크리스트"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="553dp" />
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <android.widget.Button
+        android:id="@+id/button_map"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="지도"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="378dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
