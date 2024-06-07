@@ -10,6 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloAndroid">
+
         <activity
             android:name=".HomeActivity"
             android:exported="true"
@@ -22,6 +23,20 @@
         <activity android:name=".LoginActivity"
             tools:ignore="Instantiatable" />
         <activity android:name=".JoinActivity"
+            tools:ignore="Instantiatable" />
+
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
+
+        <activity
+            android:name=".CheckActivity"
+            android:exported="true"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListActivity"
             tools:ignore="Instantiatable" />
 
         <meta-data android:name="android.max_aspect" android:value="2.1" />
