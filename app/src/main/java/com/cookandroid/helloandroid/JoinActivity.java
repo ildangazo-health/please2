@@ -30,7 +30,8 @@ public class JoinActivity extends AppCompatActivity{
     }
     private void initializeComponents(){
         EditText inputEditID=findViewById(R.id.editText_id);
-        EditText inputEditPassword=findViewById(R.id.editText_id);
+        EditText inputEditPassword=findViewById(R.id.editText_pw);
+        EditText inputEditName = findViewById(R.id.editText_name);
         EditText inputEditEmail=findViewById(R.id.editText_email);
 
 
@@ -42,12 +43,14 @@ public class JoinActivity extends AppCompatActivity{
 
         buttonSave.setOnClickListener(view -> {
             String id = String.valueOf(inputEditID.getText());
+            String name = String.valueOf(inputEditName.getText());
             String password = String.valueOf(inputEditPassword.getText());
             String email = String.valueOf(inputEditEmail.getText());
 
 
             User user=new User();
             user.setId(id);
+            user.setName(name);
             user.setPassword(password);
             user.setEmail(email);
 
