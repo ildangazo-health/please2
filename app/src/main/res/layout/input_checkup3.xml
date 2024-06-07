@@ -39,7 +39,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <RadioGroup
-                    android:id="@+id/radioGroup2"
+                    android:id="@+id/radioGroup_yoprotein"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -47,19 +47,19 @@
                     android:layout_marginStart="8dp">
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/radio_yo_nomal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="정상" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/radio_yo_boundary"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="경계" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/radio_yo_suspicion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="단백뇨의심" />
@@ -88,7 +88,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <RadioGroup
-                    android:id="@+id/radioGroup"
+                    android:id="@+id/radioGroup_chest"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -96,25 +96,25 @@
                     android:layout_marginStart="8dp">
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/radio_chest_normal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="정상" />
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/radio_chest_tuberculosis"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="비활동성 폐결핵" />
 
                     <RadioButton
-                        android:id="@+id/radioButton7"
+                        android:id="@+id/radio_chest_suspicion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="질환의심" />
 
                     <RadioButton
-                        android:id="@+id/radioButton8"
+                        android:id="@+id/radio_chest_etc"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="기타"
@@ -123,7 +123,7 @@
             </LinearLayout>
 
             <EditText
-                android:id="@+id/editTextOther"
+                android:id="@+id/input_chest_etc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="기타 내용을 입력하세요"
@@ -152,7 +152,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName"
+                    android:id="@+id/input_medicalHistory"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -177,7 +177,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextTextPersonName2"
+                    android:id="@+id/input_medicine"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -197,28 +197,28 @@
                 android:layout_marginBottom="16dp" />
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBox_smoking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="금연필요"
                 android:layout_marginBottom="16dp" />
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/checkBox_drinking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="절주필요"
                 android:layout_marginBottom="16dp" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/checkBox_physicalActivity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="신체활동 필요"
                 android:layout_marginBottom="16dp" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/checkBox_muscularExercise"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="근력운동 필요"
