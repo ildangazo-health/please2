@@ -22,7 +22,16 @@
         android:text="검진 결과 입력"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="291dp" />
+        tools:layout_editor_absoluteY="192dp" />
+
+    <android.widget.Button
+        android:id="@+id/button_output"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="검진 결과 확인"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="280dp" />
 
     <android.widget.Button
         android:id="@+id/button_check"

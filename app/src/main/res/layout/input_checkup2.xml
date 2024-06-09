@@ -38,7 +38,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber"
+                    android:id="@+id/input_hemoglobin"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -63,7 +63,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber2"
+                    android:id="@+id/input_bloodsugar"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -88,7 +88,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber3"
+                    android:id="@+id/input_cholesterol"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -113,7 +113,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber5"
+                    android:id="@+id/input_fat"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -138,7 +138,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber4"
+                    android:id="@+id/input_high_cholesterol"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -163,7 +163,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber8"
+                    android:id="@+id/input_low_cholesterol"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -188,7 +188,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber6"
+                    android:id="@+id/input_creatinine"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -213,7 +213,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber9"
+                    android:id="@+id/input_gfr"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -238,7 +238,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber10"
+                    android:id="@+id/input_ast"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -263,7 +263,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber11"
+                    android:id="@+id/input_alt"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -288,7 +288,7 @@
                     android:layout_gravity="center_vertical" />
 
                 <EditText
-                    android:id="@+id/editTextNumber12"
+                    android:id="@+id/input_gpt"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
