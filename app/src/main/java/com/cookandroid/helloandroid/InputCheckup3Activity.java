@@ -186,7 +186,7 @@ public class InputCheckup3Activity extends AppCompatActivity {
                         if (response.isSuccessful()) {
                             // 저장이 되었다면
                             Toast.makeText(InputCheckup3Activity.this, "Save Success", Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(InputCheckup3Activity.this, HomeActivity.class);
+                            Intent intent = new Intent(InputCheckup3Activity.this, MainActivity.class);
                             startActivity(intent);
                             finish(); // 현재 액티비티를 종료하여 뒤로가기 버튼을 누르면 이전으로 돌아가지 않도록 함
                         } else {
