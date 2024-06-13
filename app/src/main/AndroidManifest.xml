@@ -19,7 +19,6 @@
             android:value="AIzaSyAnGySxP08NBlvL5-PToKgw6zCRHJoKQyA"/>
 
         <!-- SplashActivity를 진입점으로 설정 -->
-        <activity android:name=".CheckupDetailActivity"></activity>
 
         <activity
             android:name=".SplashActivity"
@@ -43,6 +42,9 @@
         <activity android:name=".InputCheckup2Activity" />
         <activity android:name=".InputCheckup3Activity" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".CheckupDetailActivity"></activity>
+
+
 
         <meta-data android:name="android.max_aspect" android:value="2.1" />
     </application>

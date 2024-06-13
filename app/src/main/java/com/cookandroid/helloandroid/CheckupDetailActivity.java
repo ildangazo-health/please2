@@ -12,6 +12,7 @@ public class CheckupDetailActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkup_detail);
 
+
         TextView hospitalTextView = findViewById(R.id.detailHospital);
         TextView dateTextView = findViewById(R.id.detailDate);
         TextView heightTextView = findViewById(R.id.detailHeight);
