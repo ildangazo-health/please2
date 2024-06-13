@@ -5,5 +5,11 @@
         <!-- Customize your theme here -->
         <item name="android:fontFamily">@font/cafe24surround</item>
         <item name="fontFamily">@font/cafe24surround</item>
+
+    </style>
+    <style name="Theme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
