@@ -3,14 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
-=======
+        <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/font-v26/font.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/font/font.xml" value="0.14814814814814814" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/check_result.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/checklist.xml" value="0.1" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/checkup_list.xml" value="0.22" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/checkup_list_item.xml" value="0.2504528985507246" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/home.xml" value="0.2644927536231884" />
-        <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/input_checkup.xml" value="0.1" />
+        <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/input_checkup.xml" value="0.22" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/input_checkup2.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/input_checkup3.xml" value="0.1" />
         <entry key="..\:/Users/Hjeon/AndroidStudioProjects/health/app/src/main/res/layout/join.xml" value="0.23854166666666668" />
@@ -27,37 +27,12 @@
         <entry key="..\:/Users/LG32432/AndroidStudioProjects/health/app/src/main/res/layout/map.xml" value="0.1" />
         <entry key="..\:/Users/LG32432/AndroidStudioProjects/health/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.152" />
         <entry key="..\:/Users/LG32432/AndroidStudioProjects/health/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.152" />
-<<<<<<< HEAD
->>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
-=======
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/activity_map.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/check_result.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/checklist.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/checkup_list.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/checkup_list_item.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/home.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/input_checkup2.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/input_checkup3.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/item_layout.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/join.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/login.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/main.xml" value="0.1" />
-        <entry key="..\:/Users/ebmmq/AndroidStudioProjects/first_check/health/app/src/main/res/layout/map.xml" value="0.1" />
->>>>>>> 0256d3e513316dd4f43f928e6ccb5995566e34b4
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/check_result.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/checklist.xml" value="0.22" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/checkup_list.xml" value="0.23777173913043478" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/checkup_list_item.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/home.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/iist_health.xml" value="0.35190217391304346" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/input_checkup.xml" value="0.35520833333333335" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/input_checkup2.xml" value="0.35520833333333335" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/input_checkup3.xml" value="0.35520833333333335" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/join.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/join.xml" value="0.22" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/list_health.xml" value="0.22" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/login.xml" value="0.22" />
-        <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/main.xml" value="0.23777173913043478" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/map.xml" value="0.22" />
         <entry key="..\:/Users/rkfka/AndroidStudioProjects/HelloAndroid/app/src/main/res/layout/solution.xml" value="0.22" />
       </map>
