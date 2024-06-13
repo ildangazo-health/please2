@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
-=======
     <!--<ImageView
         android:id="@+id/imageView"
         android:layout_width="147dp"
@@ -20,36 +18,11 @@
 
     -->
 
->>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
     <TextView
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Health Mate"
-<<<<<<< HEAD
-        android:textSize="25dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="115dp" />
-
-    <android.widget.Button
-        android:id="@+id/button_input"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="검진 결과 입력"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="192dp" />
-
-    <android.widget.Button
-        android:id="@+id/button_output"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="검진 결과 확인"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="280dp" />
-=======
+        android:text="Check Mate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
@@ -63,27 +36,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="32dp" />
->>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
 
     <Button
         android:id="@+id/button_check"
-<<<<<<< HEAD
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="생활 건강 체크리스트"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="472dp" />
-
-    <android.widget.Button
-        android:id="@+id/button_map"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="지도"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="378dp" />
-=======
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="생활 건강 체크리스트"
@@ -91,7 +46,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
->>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
 
     <Button
         android:id="@+id/button_checkup_list"
