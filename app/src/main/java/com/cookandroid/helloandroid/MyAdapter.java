@@ -27,15 +27,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         ApiResponse.Item item = itemList.get(position);
-        holder.textView.setText(item.hospitalName); // 'hospitalName' 필드를 사용
-        holder.itemView.setOnClickListener(v -> listener.onItemClick(item.hospitalAddress)); // 'hospitalAddress' 필드를 사용
+        holder.hospitalName.setText(item.hospitalName);
+        holder.hospitalAddress.setText(item.hospitalAddress);
+        holder.itemView.setOnClickListener(v -> listener.onItemClick(item.hospitalAddress));
     }
 
     @Override
@@ -44,11 +45,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView textView;
+        TextView hospitalName;
+        TextView hospitalAddress;
 
         ViewHolder(View itemView) {
             super(itemView);
-            textView = itemView.findViewById(android.R.id.text1);
+            hospitalName = itemView.findViewById(R.id.hospitalName);
+            hospitalAddress = itemView.findViewById(R.id.hospitalAddress);
         }
     }
 }
