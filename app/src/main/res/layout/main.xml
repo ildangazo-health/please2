@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
@@ -27,21 +26,21 @@
         android:layout_marginTop="32dp" />
 
     <android.widget.Button
-        android:id="@+id/button_check"
+        android:id="@+id/button_checkup_list"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="자가진단"
+        android:text="건강검진결과"
         app:layout_constraintTop_toBottomOf="@+id/button_map"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
     <android.widget.Button
-        android:id="@+id/button_checkup_list"
+        android:id="@+id/button_check"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="건강검진내역"
-        app:layout_constraintTop_toBottomOf="@+id/button_check"
+        android:text="자가진단"
+        app:layout_constraintTop_toBottomOf="@+id/button_checkup_list"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
