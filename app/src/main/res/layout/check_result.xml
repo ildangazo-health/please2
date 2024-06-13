@@ -13,6 +13,7 @@
         android:layout_marginStart="11dp"
         android:layout_marginTop="25dp"
         android:text="체크리스트 결과"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="2개 이하"
+        android:textColor="#000000"
         app:layout_constraintBaseline_toBaselineOf="@+id/check2_result1"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -45,6 +47,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="40dp"
         android:text="건강합니다."
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/check2"
         app:layout_constraintTop_toBottomOf="@+id/result_text_view"
         tools:ignore="MissingConstraints" />
@@ -56,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="21dp"
         android:text="그래도 운동은 꾸준히 하셔야 합니다."
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/check2_result1"
         app:layout_constraintTop_toBottomOf="@+id/check2_result1"
         tools:ignore="MissingConstraints" />
@@ -67,6 +71,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginBottom="32dp"
         android:text="운동부족 상태입니다."
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/check5_result2"
         app:layout_constraintStart_toStartOf="@+id/check2_result2"
         tools:ignore="MissingConstraints" />
@@ -77,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="3~5개"
+        android:textColor="#000000"
         app:layout_constraintBaseline_toBaselineOf="@+id/check5_result1"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -88,6 +94,7 @@
         android:layout_marginTop="82dp"
         android:layout_marginEnd="38dp"
         android:text="아직 문제는 없어도 운동습관을 들여야 합니다."
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/check2_result2"
         tools:ignore="MissingConstraints" />
@@ -99,6 +106,7 @@
         android:layout_marginStart="37dp"
         android:layout_marginTop="55dp"
         android:text="건강이 위험합니다!"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/check10"
         app:layout_constraintTop_toBottomOf="@+id/check9_result2"
         tools:ignore="MissingConstraints" />
@@ -109,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:text="당장 운동을 시작하세요"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/check9_result1"
         app:layout_constraintTop_toBottomOf="@+id/check9_result1"
         tools:ignore="MissingConstraints" />
@@ -119,6 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="6~9개"
+        android:textColor="#000000"
         app:layout_constraintBaseline_toBaselineOf="@+id/check9_result1"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -129,6 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="10개"
+        android:textColor="#000000"
         app:layout_constraintBaseline_toBaselineOf="@+id/check10_result1"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
@@ -139,6 +150,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:text="운동도 운동이지만 병원을 찾아가세요."
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@+id/check10_result1"
         app:layout_constraintTop_toBottomOf="@+id/check10_result1"
         tools:ignore="MissingConstraints" />
@@ -150,6 +162,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="52dp"
         android:text="심각한 운동부족입니다."
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/check9"
         app:layout_constraintTop_toBottomOf="@+id/check5_result2"
         tools:ignore="MissingConstraints" />
