@@ -54,7 +54,6 @@
         <activity android:name=".InputCheckup2Activity"></activity>
         <activity android:name=".InputCheckup3Activity"></activity>
 
-        <activity android:name=".ChecklistActivity"></activity>
         <activity android:name=".MapActivity"></activity>
 
         <meta-data android:name="android.max_aspect" android:value="2.1" />

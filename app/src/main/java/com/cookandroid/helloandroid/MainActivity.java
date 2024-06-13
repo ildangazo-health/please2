@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         checkListButton.setOnClickListener(new View.OnClickListener() { // setOnClickListener 메서드를 인식하도록 수정
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ChecklistActivity.class);
+                Intent intent = new Intent(MainActivity.this, CheckActivity.class);
                 startActivity(intent);
             }
         });
