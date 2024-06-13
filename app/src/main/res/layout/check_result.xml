@@ -158,9 +158,11 @@
         android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:text="홈으로"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="578dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check10_result2"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
