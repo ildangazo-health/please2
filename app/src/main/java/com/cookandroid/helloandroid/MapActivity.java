@@ -63,6 +63,11 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        LatLng chungbukUniversity = new LatLng(36.62559, 127.4544);
+
+        // 충북대학교에 마커 추가하고 카메라를 해당 위치로 이동
+        mMap.addMarker(new MarkerOptions().position(chungbukUniversity).title("현위치"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(chungbukUniversity, 17));
     }
 
     private void fetchItems() {
