@@ -3,13 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
+<<<<<<< HEAD
+=======
+    <!--<ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147dp"
+        android:layout_height="146dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"
+        app:srcCompat="@tools:sample/avatars" />
+
+    -->
+
+>>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
     <TextView
         android:id="@+id/AppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Health Mate"
+<<<<<<< HEAD
         android:textSize="25dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="137dp"
@@ -32,9 +49,26 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="280dp" />
+=======
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
 
-    <android.widget.Button
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="지도"
+        app:layout_constraintTop_toBottomOf="@+id/AppName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+>>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
+
+    <Button
         android:id="@+id/button_check"
+<<<<<<< HEAD
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="생활 건강 체크리스트"
@@ -50,5 +84,14 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="378dp" />
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생활 건강 체크리스트"
+        app:layout_constraintTop_toBottomOf="@+id/button_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+>>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
 
 </androidx.constraintlayout.widget.ConstraintLayout>
