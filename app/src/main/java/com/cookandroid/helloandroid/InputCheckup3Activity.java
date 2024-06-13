@@ -10,13 +10,11 @@ import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.cookandroid.helloandroid.InputCheckup2Activity;
-
 public class InputCheckup3Activity extends AppCompatActivity {
 
-    private RadioGroup radioGroup;
-    private RadioButton radioButtonOther;
-    private EditText editTextOther;
+    private RadioGroup radioGroupChest;
+    private RadioButton radioChestEtc;
+    private EditText inputChestEtc;
     private Button buttonPrevious;
     private Button buttonSave;
 
@@ -25,19 +23,19 @@ public class InputCheckup3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.input_checkup3);
 
-        radioGroup = findViewById(R.id.radioGroup);
-        radioButtonOther = findViewById(R.id.radioButton8);
-        editTextOther = findViewById(R.id.editTextOther);
+        radioGroupChest = findViewById(R.id.radioGroup_chest);
+        radioChestEtc = findViewById(R.id.radio_chest_etc);
+        inputChestEtc = findViewById(R.id.input_chest_etc);
         buttonPrevious = findViewById(R.id.buttonPrevious);
         buttonSave = findViewById(R.id.button5);
 
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        radioGroupChest.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if (checkedId == R.id.radioButton8) {
-                    editTextOther.setVisibility(View.VISIBLE);
+                if (checkedId == R.id.radio_chest_etc) {
+                    inputChestEtc.setVisibility(View.VISIBLE);
                 } else {
-                    editTextOther.setVisibility(View.GONE);
+                    inputChestEtc.setVisibility(View.GONE);
                 }
             }
         });
