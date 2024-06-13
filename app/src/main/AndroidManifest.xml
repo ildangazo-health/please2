@@ -19,6 +19,8 @@
             android:value="AIzaSyAnGySxP08NBlvL5-PToKgw6zCRHJoKQyA"/>
 
         <!-- SplashActivity를 진입점으로 설정 -->
+        <activity android:name=".CheckupDetailActivity"></activity>
+
         <activity
             android:name=".SplashActivity"
             android:exported="true"
