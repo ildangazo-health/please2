@@ -111,7 +111,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="4dp"
-                android:text="테스트 결과 보기" />
+                android:text="테스트 결과 보기"
+                style="@style/CustomButton"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
