@@ -11,38 +11,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Check Mate"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_hospital"
+        app:layout_constraintVertical_chainStyle="packed"/>
 
-    <android.widget.Button
+    <ImageView
+        android:id="@+id/imageView_hospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/hospital"
+        app:layout_constraintTop_toBottomOf="@+id/AppName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
         android:id="@+id/button_map"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="건강검진 병원 찾기"
-        app:layout_constraintTop_toBottomOf="@+id/AppName"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_hospital"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="32dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <android.widget.Button
+    <ImageView
+        android:id="@+id/imageView_checkup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/checkup"
+        app:layout_constraintTop_toBottomOf="@+id/button_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
         android:id="@+id/button_checkup_list"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="건강검진결과"
-        app:layout_constraintTop_toBottomOf="@+id/button_map"
+        android:text="검진결과목록"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_checkup"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
-    <android.widget.Button
+    <ImageView
+        android:id="@+id/imageView_checklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/checklist"
+        app:layout_constraintTop_toBottomOf="@+id/button_checkup_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
         android:id="@+id/button_check"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="자가진단"
-        app:layout_constraintTop_toBottomOf="@+id/button_checkup_list"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_checklist"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
