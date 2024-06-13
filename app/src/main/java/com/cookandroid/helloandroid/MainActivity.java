@@ -11,6 +11,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main); // main.xml 파일이 존재하는지 확인
+        // 지도 버튼 클릭 리스너
+        Button mapButton = findViewById(R.id.button_map); // button_checkup_list의 ID를 확인
+        mapButton.setOnClickListener(new View.OnClickListener() { // setOnClickListener 메서드를 인식하도록 수정
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, MapActivity.class);
+                startActivity(intent);
+            }
+        });
 
         // 건강검진내역 버튼 클릭 리스너
         Button checkupListButton = findViewById(R.id.button_checkup_list); // button_checkup_list의 ID를 확인
