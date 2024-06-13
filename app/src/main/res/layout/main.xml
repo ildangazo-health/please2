@@ -54,7 +54,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 
-
     <Button
         android:id="@+id/button_map"
         android:layout_width="wrap_content"
@@ -93,5 +92,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="16dp" />
 >>>>>>> 732f2a18b8568a57009c3745bda02aedd323016e
+
+    <Button
+        android:id="@+id/button_checkup_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="건강검진내역"
+        app:layout_constraintTop_toBottomOf="@+id/button_check"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
