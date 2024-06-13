@@ -21,11 +21,11 @@
         android:id="@+id/result_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="24dp"
         android:text="Checked: 0 items"
         android:textSize="25dp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/check2_result1"
         app:layout_constraintTop_toBottomOf="@+id/result" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:id="@+id/check2_result2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="21dp"
         android:text="그래도 운동은 꾸준히 하셔야 합니다."
         app:layout_constraintStart_toStartOf="@+id/check2_result1"
         app:layout_constraintTop_toBottomOf="@+id/check2_result1"
@@ -64,11 +64,11 @@
         android:id="@+id/check5_result1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="32dp"
         android:text="운동부족 상태입니다."
         app:layout_constraintBottom_toTopOf="@+id/check5_result2"
-        app:layout_constraintStart_toEndOf="@+id/check5"
+        app:layout_constraintStart_toStartOf="@+id/check2_result2"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -85,11 +85,11 @@
         android:id="@+id/check5_result2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="38dp"
         android:text="아직 문제는 없어도 운동습관을 들여야 합니다."
-        app:layout_constraintStart_toStartOf="@+id/check5_result1"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check2_result2"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -107,7 +107,7 @@
         android:id="@+id/check9_result2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
+        android:layout_marginTop="35dp"
         android:text="당장 운동을 시작하세요"
         app:layout_constraintStart_toStartOf="@+id/check9_result1"
         app:layout_constraintTop_toBottomOf="@+id/check9_result1"
@@ -158,7 +158,7 @@
         android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:text="홈으로"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
